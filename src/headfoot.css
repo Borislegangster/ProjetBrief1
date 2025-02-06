@@ -38,6 +38,15 @@ header{
 .navbar-toggler-icon{
     color: white;
 }
+.offcanvas-end{
+    background-color: #021D3C;
+}
+
+#offcanvasNavbarLabel{
+    background: linear-gradient(to right, #59A465 61%, #1E9FDB 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* responsive hamburger */
 @media screen and (min-width:992px ) {
     .hamburger{

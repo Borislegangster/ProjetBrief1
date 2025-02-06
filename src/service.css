@@ -154,6 +154,18 @@ main section{
     }
 }
 
+@media screen and (max-width: 519px){
+    .article .cadre .c2{
+        width: 100% !important;
+    }
+
+    .article .cadre .c2 .img{
+        width: 100% !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+}
+
 .article{
     margin-bottom: 100px;
 }
