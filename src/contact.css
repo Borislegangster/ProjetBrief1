@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background:linear-gradient(to top, rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(../img/douala.jpg);
+     background-position: center;
+     background-size: cover;
+     /* background-repeat: no-repeat; 
+     background-attachment: fixed;  */
+     height: 100vh;
+     /* margin-top: -9%; */
+     position: relative;
+}
+.container{
+    width: 60%;
+    height: 700px;
+    margin-top: 10%;
+    color: white;
+    gap:20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Couleur de fond blanche avec transparence */
+    border-radius: 10px; /* Bords arrondis */
+    backdrop-filter: blur(3px); /* Flou en arrière-plan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px; /* Marge intérieure */
+    justify-content: space-between;
+
+}
+.container button{
+    color: #14AE5C;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.container .btn:hover{
+    color: #59a465;
+}
+
+form{
+   
+    display: flex;
+    flex-direction: column; /* Pour aligner les éléments verticalement */
+    gap: 20px; /* Ajustez la valeur selon vos besoins */
+
+}
+.icon{
+    color: #000;
+}
+.container span{
+    color: #14AE5C;
+}
+.contact-info{
+   
+    display: flex; /* Active le mode Flexbox pour le conteneur */
+    justify-content: space-around; /* Aligne les divs horizontalement avec un espace égal autour */
+    flex-wrap: wrap;
+    gap: 15px; 
+    align-items: center; 
+    margin-top: 10px;      
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 80%;
+        height: auto;
+    }
+}
